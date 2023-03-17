@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nubiaville/screens/homepage.dart';
+import 'package:nubiaville/screens/login.dart';
 
 
 void main() {
@@ -13,11 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Nubiaville Projects',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const LoginScreen(),
     );
   }
 }

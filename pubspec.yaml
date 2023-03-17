@@ -31,8 +31,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  syncfusion_flutter_datagrid: ^20.1.48
+  syncfusion_flutter_datagrid: ^20.4.53
+  syncfusion_flutter_datagrid_export: ^20.4.54-beta
+  flutter_excel:
+  file_picker: ^4.1.4
+  animated_size_and_fade: ^3.0.1
   intl: ^0.18.0
+  datetime_picker_formfield_new: ^2.1.0
+  dropdown_search: ^5.0.6
+  image_picker:
 
 
   # The following adds the Cupertino Icons font to your application.
