@@ -176,7 +176,7 @@ class _DropDownState extends State<DropDown> {
                         width: deviceWidth *0.42,
                         height: 35,
                         child: TextFormField(
-                          controller: minController,
+                          controller: maxController,
                           decoration: InputDecoration(
                             border: OutlineInputBorder(),
                             alignLabelWithHint: true,

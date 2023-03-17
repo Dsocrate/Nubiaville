@@ -38,6 +38,7 @@ class _HomePageState extends State<HomePage> {
     deviceHeight = MediaQuery.of(context).size.height;
     return SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         appBar: AppBar(
           //toolbarHeight: 100,
           backgroundColor: Color(0xFF0E2038),
